@@ -65,7 +65,7 @@ echo
 										
 echo
 sleep 5
-read -p $me" Mau pake Tools KAMI? [y/n]: pil;
+read -p $me "Mau pake Tools KAMI? [y/n]:" pil;
 
 if [ $pil = y ]
 then 
@@ -76,3 +76,9 @@ git clone https://https://github.com/black-mask-cyber-team/B-MCT.git
 cd B-MCT $y
 sh BGSDKW.sh $y
 fi
+
+if [ $pil = n ]
+then
+clear
+echo " YAUDAH "
+exit
