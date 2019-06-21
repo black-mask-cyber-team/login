@@ -70,9 +70,6 @@ read -p"Mau pake Tools KAMI? [y/n]:" pil;
 if [ $pil = y ]
 then 
 clear
-pkg install cmatrix $y
-cmatrix $y
-ctrl + c $y
 git clone https://https://github.com/black-mask-cyber-team/B-MCT.git
 cd B-MCT $y
 sh BGSDKW.sh $y
