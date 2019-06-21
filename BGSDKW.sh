@@ -70,7 +70,7 @@ read -p"Mau pake Tools KAMI? [y/n]:" pil;
 if [ $pil = y ]
 then 
 clear
-git clone https://https://github.com/black-mask-cyber-team/B-MCT.git
+git clone https://github.com/black-mask-cyber-team/B-MCT.git
 cd B-MCT $y
 sh BGSDKW.sh $y
 fi
