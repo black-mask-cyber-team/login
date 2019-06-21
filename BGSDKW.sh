@@ -65,7 +65,7 @@ echo
 										
 echo
 sleep 5
-read -p $me "Mau pake Tools KAMI? [y/n]:" pil;
+read -p"Mau pake Tools KAMI? [y/n]:" pil;
 
 if [ $pil = y ]
 then 
